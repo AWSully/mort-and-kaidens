@@ -101,10 +101,12 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .header__home {
   margin-top: 5px;
+  
 }
 .header__theme-button {
   background-color: transparent;
