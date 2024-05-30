@@ -113,6 +113,13 @@ img {
   border: none;
   cursor: pointer;
 }
+.header_logo_light {
+  display: unset;
+}
+.header_logo_dark {
+  display: none;
+}
+
 .header__theme-button-sun {
   display: none;
 }
@@ -124,6 +131,12 @@ img {
 }
 :root.darkTheme .header__theme-button-moon {
   display: none;
+}
+:root.darkTheme .header_logo_light {
+  display: none;
+}
+:root.darkTheme .header_logo_dark {
+  display: unset;
 }
 
 .header__search {
@@ -375,6 +388,7 @@ img {
   display: flex;
   align-items: center;
   gap: 4px;
+  margin-top: 4px;
 
   position: absolute;
   top: 50%;
